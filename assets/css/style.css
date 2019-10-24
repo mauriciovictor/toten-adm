@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+body{
+     background: url('../images/floresta_plantada.png') no-repeat fixed;
+    /* background: linear-gradient(to bottom, rgba(60, 160, 147, 0.8), rgba(5, 41, 33, 0.596)) no-repeat fixed; */
+    background-size:cover;
+    width:100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container-main{
+    width:100%;
+    max-width: 100%;
+    margin-top: 60px;
+}
+
+.cards{
+    /* padding:15px; */
+    background: rgb(252, 252, 252);
+    color:rgb(11, 12, 11);
+    margin-top:25px;
+}
+
+.card{
+    border:none;
+}
+
+.name-company{
+    color:rgb(13, 139, 55);
+    position: relative;
+    top:10px;
+}
+
+.btn-default{
+    padding:8px;
+    border:1px solid rgb(13, 139, 55);
+    border-radius:5px;
+    color: rgb(13, 139, 55);
+    background: rgba(7, 97, 48, 0.85);
+}
+
+.card-img-top{
+    padding:5px;
+    border-radius:5px;
+}
+
+.card-slide{
+     margin-bottom:4px;
+     margin-left:4px;
+     display:inline-block;
+     border: 1px solid rgb(255, 255, 255);
+}
+
+.cards-slides{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    .fadeIn {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+    }
+
+    .contact-us{
+        margin-top:100px;
+        background: rgb(253, 253, 253);
+        padding:30px;
+        border-radius: 5px;
+        margin-bottom: 600px;
+    }
+
+    .color-selected-pt{
+        background:rgba(130, 207, 169, 0.514);
+        padding:5px;
+        color:rgb(100, 92, 92);
+        border-radius:5px;
+        margin-right:5px;
+    }
+    .color-selected-en{
+        background:rgba(56, 145, 187, 0.514);
+        padding:5px;
+        border-radius:5px;
+        margin-left:5px;
+    }
+    .languages{
+        padding:10px;
+    }
+
+    nav{
+        background: rgb(250, 250, 250);
+    }
+    .text-area{
+        height:300px;
+    }

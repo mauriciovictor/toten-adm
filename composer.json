@@ -1,0 +1,20 @@
+{
+    "name": "brinfo/toten-amcel",
+    "description": "Criar\u0000\u0000o de projeto Amcel Toten",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mauricio victor",
+            "email": "vmauricio@hotmail.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/" 
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^2.9",
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}
